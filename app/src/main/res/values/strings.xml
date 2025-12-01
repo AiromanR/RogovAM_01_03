@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">RogovAM_01_03</string>
+    <string name="Registr">Регистрация</string>
+    <string name="Log_Pas">Введите ваш логин и пароль</string>
+    <string name="Password">Пароль</string>
+    <string name="Login">Логин</string>
+    <string name="Come_In">Войти</string>
+    <string name="Main">На Главное Меню</string>
+    <string name="Calculate_s">Расчет площади</string>
+    <string name="Write_Count_m">Введите колличество метров</string>
+    <string name="Result">Результат</string>
+    <string name="Count">расчитать</string>
+    <string name="Count_Result">Результат расчета</string>
+    <string name="m_count">Количество метров</string>
+    <string name="Registration">Регистрация</string>
+</resources>

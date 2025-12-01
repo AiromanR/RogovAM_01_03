@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/v3" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/Registr"
+            android:textColor="@color/pink"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="41dp"
+        android:layout_marginBottom="41dp"
+        android:background="@color/lightblue"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="65dp"
+            android:layout_gravity="center"
+            android:layout_width="282dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Log_Pas"
+            android:textColor="@color/black" />
+        <EditText
+            android:id="@+id/Log"
+            android:textSize="16sp"
+            android:layout_marginTop="14dp"
+            android:layout_gravity="center"
+            android:layout_width="282dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/Login"
+            android:backgroundTint="@color/black"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:outlineSpotShadowColor="@color/black"
+            />
+        <EditText
+            android:id="@+id/Pass"
+            android:textStyle="bold"
+            android:layout_marginTop="34dp"
+            android:layout_gravity="center"
+            android:layout_width="282dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/Password"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/black"
+            android:textColorHint="@color/black"
+            android:outlineSpotShadowColor="@color/black"
+            />
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:text="@string/Come_In"
+            android:textSize="24sp"
+            android:background="@drawable/button_come"
+            android:layout_gravity="center"
+            android:layout_marginBottom="65dp"
+            android:layout_marginTop="183dp"
+            android:onClick="LogIn"/>
+    </LinearLayout>
+
+</RelativeLayout>

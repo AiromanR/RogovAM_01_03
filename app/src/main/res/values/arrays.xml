@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="apartaments_array">
+        <item>1. 1-о комнатная квартира</item>
+        <item>2. 2-х комнатная квартира</item>
+        <item>3. 3-х комнатная квартира</item>
+        <item>4. Студия</item>
+    </string>
+</resources>
